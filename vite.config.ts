@@ -12,7 +12,7 @@ export default defineConfig({
     viteReact(),
     tailwindcss(),
   ],
-
+  // test configuration moved to vitest.config.ts
   resolve: {
     alias: {
       '@': resolve(__dirname, './src'),
